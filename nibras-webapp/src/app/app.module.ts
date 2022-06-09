@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { SharedModule } from './dashboard/shared/components/shared/shared.module';
+import { HomeServiceService } from './services/home-service.service';
 
 @NgModule({
   declarations: [
@@ -10,9 +13,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DashboardModule,
+    SharedModule
   ],
-  providers: [],
+  providers: [HomeServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

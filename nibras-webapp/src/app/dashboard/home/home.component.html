@@ -1,1 +1,12 @@
-<p>home works!</p>
+<div class="home-panel">
+    <app-description [header]="headerData" [Description]="descriptionData"></app-description>
+</div>
+
+<div class="summart-cards">
+    <app-summary-card [totalOrders]="totalOrdersData" [totalExpenses]="totalExpensesData"
+        [totalRevenue]="totalRevenueData" [NewUsers]="newUsersCount"></app-summary-card>
+</div>
+
+<div class="recent-blogs">
+    <app-recent-blogs></app-recent-blogs>
+</div>
