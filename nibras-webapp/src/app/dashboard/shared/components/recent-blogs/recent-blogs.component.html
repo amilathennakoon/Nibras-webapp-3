@@ -3,13 +3,15 @@
             apps
         </span>Recent Blogs</div>
     <div class="card-body">
-
-        <div class="blog-card">
-            <div class="image">
-
+        <div class="d-flex flex-row overflow-auto">
+            <div class="card card-body" *ngFor="let post of posts">
+                <div class="image">
+                    <img width="250px" src="https://images4.welcomesoftware.com/Zz03YTk1NDYzZDIxYTkxMWVjYjQ2ODZmNmU4YTI3YmI3Yg==" alt="">
+                </div>
+                
+                <h5 class="card-title">{{post.title | slice:0:15}} ...</h5>
+                <div class="description">{{post.body}}</div>
             </div>
-            <h5 class="card-title">test</h5>
-            <div class="description"></div>
         </div>
     </div>
 </div>

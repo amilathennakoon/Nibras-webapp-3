@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Post } from '../../models/post';
 
 @Component({
   selector: 'app-recent-blogs',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecentBlogsComponent implements OnInit {
 
+  @Input() posts: Post[];
+  
   constructor() { }
-
+ 
   ngOnInit(): void {
   }
 

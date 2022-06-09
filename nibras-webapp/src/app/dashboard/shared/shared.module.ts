@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { SharedRoutingModule } from './shared-routing.module';
 import { DescriptionComponent } from 'src/app/dashboard/shared/components/description/description.component';
-import { SummaryCardComponent } from '../summary-card/summary-card.component';
-import { RecentBlogsComponent } from '../recent-blogs/recent-blogs.component';
+import { SummaryCardComponent } from './components/summary-card/summary-card.component';
+import { RecentBlogsComponent } from './components/recent-blogs/recent-blogs.component';
 
 
 @NgModule({
