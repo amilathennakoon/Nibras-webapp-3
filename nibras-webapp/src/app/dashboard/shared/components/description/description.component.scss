@@ -3,13 +3,29 @@
     font-weight: 500;
     height: 28px;
     line-height: 5px;
-  }
+    display: flex;
+    align-items: center;
+}
 
 .header-icon {
     font-size: 12px;
 }
 
-.card-body{
+.card-body {
     font-size: 10px;
 }
-  
+
+.toggle-button {
+    padding: 0px;
+    height: 18px;
+}
+
+.toggle-button-group {
+    position: absolute;
+    right: 22px;
+    top: 6px;
+}
+
+.material-icons{
+    font-size: 18px;
+}

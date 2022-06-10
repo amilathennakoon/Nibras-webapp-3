@@ -1,5 +1,10 @@
-$bgcolor: #f0f5fb;
 
+@import "/src/app/master";
+
+.user-page {
+    padding: 20px;
+    background-color: $bgcolor;
+}
 
 .home-panel {
     margin-top: 10px;

@@ -1,15 +1,12 @@
-$bgcolor: #f0f5fb;
+@import "/src/app/master";
 
-.home-panel {}
 
 .blog-page {
-    margin-top: 10px;
-    margin-left: 10px;
+    background-color: $bgcolor;
+    padding: 20px;
 }
 
 .blog-page-body {
-
-    padding-left: 16px;
     margin-top: 10px;
     background-color: $bgcolor;
 }
@@ -22,7 +19,6 @@ $bgcolor: #f0f5fb;
 }
 
 .card-title {
-
     font-size: 18px;
     font-weight: 700;
 }

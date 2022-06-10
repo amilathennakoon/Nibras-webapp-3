@@ -16,6 +16,9 @@ export class UserComponent implements OnInit {
   userDataSubscription: Subscription;
   imagePath: string = "/assets/user.jpg";
   userList: User[];
+
+  toggleActionValue: string;
+
   constructor(private userDataService: UserDataService) { }
 
   ngOnInit(): void {
@@ -29,6 +32,10 @@ export class UserComponent implements OnInit {
 
   ngOnDestroy(): void {
     this.userDataSubscription.unsubscribe();
+  }
+
+  toggleAction(event: string): void {
+    this.toggleActionValue = event;
   }
 
 }

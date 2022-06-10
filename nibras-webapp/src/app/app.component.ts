@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nibras-webapp';
+  selectedMenuItem: string;
+
+  menuItemClicked(menuItem: string): void {
+    this.selectedMenuItem = menuItem;
+  }
 }
