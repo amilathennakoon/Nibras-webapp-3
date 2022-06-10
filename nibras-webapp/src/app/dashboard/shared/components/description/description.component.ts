@@ -7,9 +7,17 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class DescriptionComponent implements OnInit {
 
+  // define the input and output fields 
+  // header title input
   @Input() header: string = '';
+
+  //Desription input
   @Input() Description: string = '';
+
+  //Toggle button enable/dissable input
   @Input() showButtonbar: boolean;
+
+  // toggle actions output event 
   @Output() toggleAction = new EventEmitter<string>();;
 
   constructor() { }

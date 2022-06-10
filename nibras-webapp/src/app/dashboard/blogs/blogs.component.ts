@@ -16,11 +16,12 @@ export class BlogsComponent implements OnInit {
   totalBlogPosts: string;
 
   //default author
-  author:string="Nibras Author"
+  author: string = "Nibras Author"
   blogPostList: Post[];
   currentDate: Date = new Date();
   homeDataSubscription: Subscription;
 
+  //inject the home service to the costricter
   constructor(private homeService: HomeDataService) { }
 
   ngOnInit(): void {
@@ -35,6 +36,7 @@ export class BlogsComponent implements OnInit {
   }
 
   ngOnDestroy(): void {
+    
     //Destroy the homeDataSubscription instance
     this.homeDataSubscription.unsubscribe();
   }

@@ -9,6 +9,7 @@ export class SummaryCardComponent implements OnInit {
 
   constructor() { }
 
+  // below difine the summary cards values inputs. the default value is 0
   @Input() totalOrders: Number = 0;
   @Input() totalExpenses: Number = 0;
   @Input() totalRevenue: Number = 0;

@@ -8,6 +8,7 @@ import { Post } from '../../models/post';
 })
 export class RecentBlogsComponent implements OnInit {
 
+  // input post data array
   @Input() posts: Post[];
   
   constructor() { }
