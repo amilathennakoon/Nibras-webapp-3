@@ -1,5 +1,6 @@
 /* Define standard variables and values for website */
 
+// import main sass variable file 
 @import "master";
 
 /* Use the variables */
@@ -8,6 +9,7 @@ body {
   height: 1000px;
 }
 
+/* container specif styles*/
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -21,9 +23,11 @@ body {
   margin-right: auto;
   margin-left: auto
 }
-.navbar-custom{
+
+.navbar-custom {
   margin-bottom: 5px;
 }
+
 .counter {
   position: relative;
   top: -13px;
@@ -84,30 +88,22 @@ body {
 }
 
 
+
+// for custom responsiveness 
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
- 
-}
+@media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
- 
-}
+@media (min-width: 768px) {}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
-}
+@media (min-width: 992px) {}
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-
-}
+@media (min-width: 1400px) {}

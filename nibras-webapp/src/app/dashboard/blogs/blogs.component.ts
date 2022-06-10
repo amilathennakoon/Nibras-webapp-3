@@ -11,26 +11,31 @@ import { Post } from '../shared/models/post';
 })
 export class BlogsComponent implements OnInit {
 
+  // Define the Title for description panel
   headerData: string = "Blogs";
   totalBlogPosts: string;
 
-  homeDataSubscription: Subscription;
-
+  //default author
+  author:string="Nibras Author"
   blogPostList: Post[];
   currentDate: Date = new Date();
-
-  author:string="Nibras Author"
+  homeDataSubscription: Subscription;
 
   constructor(private homeService: HomeDataService) { }
 
   ngOnInit(): void {
+
+    // load the all posts
     this.homeDataSubscription = this.homeService.GetAllBlogPosts().subscribe((postList: Post[]) => {
       this.blogPostList = postList;
+
+      //get the set the all post count
       this.totalBlogPosts = `Total blog posts: ${this.blogPostList.length}`;
     });
   }
 
   ngOnDestroy(): void {
+    //Destroy the homeDataSubscription instance
     this.homeDataSubscription.unsubscribe();
   }
 }

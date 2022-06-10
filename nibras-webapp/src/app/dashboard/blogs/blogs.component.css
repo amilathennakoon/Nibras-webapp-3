@@ -35,8 +35,8 @@
   bottom: 20px;
   font-size: 11px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .icon {
@@ -46,4 +46,5 @@
 .author {
   float: right;
 }
+
 /*# sourceMappingURL=blogs.component.css.map */

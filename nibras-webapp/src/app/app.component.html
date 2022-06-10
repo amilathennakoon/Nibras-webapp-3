@@ -1,6 +1,8 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
+
+      <!-- navigation bar -->
       <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-custom">
         <div class="container-fluid">
           <a class="navbar-brand logo" href="#">LOREMIPSUM</a>
@@ -27,12 +29,14 @@
         </div>
       </nav>
     </div>
-    <div class="row raw-fluid">
-      <div class="col-lg-2">
+
+ <!-- define the side menu structure -->
+    <div class="row raw-fluid"> 
+      <div class="col-lg-2 raw-fluid">
         <div class="d-flex flex-column flex-shrink-0 p-3 bg-light">
           <hr>
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <span class="menu-header">MENU</span>
+            <span class="menu-header ms-3">MENU</span>
           </a>
           <hr>
           <ul class="nav nav-pills flex-column mb-auto menu-items">
@@ -63,12 +67,11 @@
                 Blog
               </a>
             </li>
-
           </ul>
-
         </div>
       </div>
-      <div class="col-lg-10">
+      <div class="col-lg-10 raw-fluid">
+        <!-- router outlet for render the angular components -->
         <router-outlet></router-outlet>
       </div>
     </div>
