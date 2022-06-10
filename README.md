@@ -14,6 +14,27 @@ this will installl angular 14 version locally
 **[http://localhost:4200](http://localhost:4200/)**
 
 
+# Screenshots - Web View
+**Home page**  
+![image info](./home.png)
+
+**User page - Grid view**  
+![image info](./users.png)
+
+**User page - Table view**  
+![image info](./user%20grid.png)
+
+**Blog page**  
+![image info](./blog.png)
+
+
+# Screenshots - Mobile View
+**Home page**  
+![image info](./localhost_4200_blog.png)
+
+**User page**  
+![image info](./localhost_4200_blog%20(1).png)
+
 # Nibras-webapp-3 screen recording
 
 ![](https://github.com/amilathennakoon/Nibras-webapp-3/blob/development/Animation.gif)
