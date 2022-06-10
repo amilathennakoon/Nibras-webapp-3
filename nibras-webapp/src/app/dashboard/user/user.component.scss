@@ -1,0 +1,47 @@
+$bgcolor: #f0f5fb;
+
+
+.home-panel {
+    margin-top: 10px;
+}
+
+.card-panel {
+    margin-top: 20px;
+    background-color: $bgcolor;
+    padding-left: 15px;
+    padding-top: 80px;
+   
+}
+
+.details {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-subtitle {
+    font-size: 13px;
+}
+
+.profile {
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-bottom: 80px;
+}
+
+.card-body {
+    padding-bottom: 5px;
+}
+
+.image {
+    width: 5px;
+    margin-top: -63px;
+   
+}
+
+.card {
+    border: 0px;
+}

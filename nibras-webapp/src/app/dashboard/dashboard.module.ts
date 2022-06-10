@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from './shared/shared.module';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    UserComponent
     
   ],
   imports: [

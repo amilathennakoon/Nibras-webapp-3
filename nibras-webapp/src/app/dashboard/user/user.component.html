@@ -1,0 +1,20 @@
+<div class="home-panel">
+    <app-description [header]="headerData" [Description]="totalUsers"></app-description>
+</div>
+
+<div class="card-panel">
+    <div class="row">
+        <div class="card profile" style="width: 9rem;" *ngFor="let user of userList">
+            <div class="card-body">
+                <div class="image">
+                    <img src="{{imagePath}}" style="border: 10px solid rgb(255, 255, 255);" width="100px"
+                        class="rounded-circle">
+                </div>
+                <div class="details">
+                    <h5 class="card-title">{{user.name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{user.company.name}}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
