@@ -5,11 +5,13 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { UserComponent } from './user/user.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    UserComponent
+    UserComponent,
+    BlogsComponent
     
   ],
   imports: [

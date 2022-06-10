@@ -1,0 +1,54 @@
+$bgcolor: #f0f5fb;
+
+.home-panel {}
+
+.blog-page {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blog-page-body {
+
+    padding-left: 16px;
+    margin-top: 10px;
+    background-color: $bgcolor;
+ 
+}
+
+.image-card {
+    margin: 10px;
+    padding: 20px;
+    width: 24rem;
+    height: 14rem;
+}
+
+.card-title {
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 11px;
+}
+
+.readmore {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.display-data {
+    position: absolute;
+    bottom: 20px;
+    font-size: 11px;
+    align-items: center;
+
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.author {
+    float: right;
+}

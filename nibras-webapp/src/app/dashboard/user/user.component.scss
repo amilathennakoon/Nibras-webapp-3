@@ -10,7 +10,7 @@ $bgcolor: #f0f5fb;
     background-color: $bgcolor;
     padding-left: 15px;
     padding-top: 80px;
-   
+
 }
 
 .details {
@@ -39,9 +39,27 @@ $bgcolor: #f0f5fb;
 .image {
     width: 5px;
     margin-top: -63px;
-   
+
 }
 
 .card {
     border: 0px;
+}
+
+
+/* Rules for styling the icon. */
+
+.message-icon {
+    position: absolute;
+    border: 4px solid white;
+    margin-top: -38px;
+    background: #47a1f6;
+    right: 37px;
+    color: #ffffff;
+    line-height: 1px;
+}
+
+.meterial-icon-custom {
+    padding: 6px;
+    font-size: 14px;
 }

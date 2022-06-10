@@ -23,8 +23,12 @@ export class UserComponent implements OnInit {
     this.userDataSubscription = this.userDataService.GetUsers().subscribe((userList: User[]) => {
 
       this.userList = userList;
-      this.totalUsers = `Total Users: ${ this.userList.length}`;
+      this.totalUsers = `Total Users: ${this.userList.length}`;
     });
+  }
+
+  ngOnDestroy(): void {
+    this.userDataSubscription.unsubscribe();
   }
 
 }

@@ -1,0 +1,35 @@
+<div class="blog-page">
+
+    <div class="home-panel">
+        <app-description [header]="headerData" [Description]="totalBlogPosts"></app-description>
+    </div>
+
+    <div class="blog-page-body">
+        <div class="row">
+            <div class="card image-card d-flex flex-row" *ngFor="let post of blogPostList">
+
+                <img width="180px"
+                    src="https://images4.welcomesoftware.com/Zz03YTk1NDYzZDIxYTkxMWVjYjQ2ODZmNmU4YTI3YmI3Yg=="
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title | slice:0:15}} ...</h5>
+                    <div class="description">{{post.body}} <br /></div>
+                    <div class="readmore"><a href="#">Read More</a></div>
+                    <div class="display-data d-flex flex-row">
+                        <span class="material-icons icon">
+                            schedule
+                        </span>
+                        {{currentDate | date:'dd MMM yyyy'}}
+
+                        <span class="material-icons icon ms-4">
+                            person
+                        </span>
+                        {{author}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
