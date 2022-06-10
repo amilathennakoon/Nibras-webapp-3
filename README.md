@@ -1,5 +1,10 @@
 # Nibras-webapp-3
-Angular version 14
+
+**Frameworks and libraries used**  
+- Angular version 14  
+- Angular Material UI components  
+- Bootstrap 5.1  
+
 1. im used Angular 14 version locally .pleace clone this repo and run the following comands  
 **npm i**   
 this will installl angular 14 version locally
