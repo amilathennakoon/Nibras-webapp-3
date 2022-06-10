@@ -1,14 +1,17 @@
 <div class="home-page">
 
+    <!-- Home page description component -->
     <div class="home-panel">
         <app-description [header]="headerData" [Description]="descriptionData" [showButtonbar]="false"></app-description>
     </div>
 
+    <!-- home page summary card component -->
     <div class="summart-cards">
         <app-summary-card [totalOrders]="totalOrdersData" [totalExpenses]="totalExpensesData"
             [totalRevenue]="totalRevenueData" [NewUsers]="newUsersCount"></app-summary-card>
     </div>
 
+    <!-- home page recent blog component -->
     <div class="recent-blogs">
         <app-recent-blogs [posts]="blogPostList"></app-recent-blogs>
     </div>
