@@ -10,14 +10,13 @@ export class DescriptionComponent implements OnInit {
   @Input() header: string = '';
   @Input() Description: string = '';
   @Input() showButtonbar: boolean;
-
   @Output() toggleAction = new EventEmitter<string>();;
 
   constructor() { }
 
   ngOnInit(): void {
 
-    // Set Default slection for User view
+    // Set Default slection for User view - otherwise the user page willbe shown as blank
     this.toggleAction.emit('list');
   }
 

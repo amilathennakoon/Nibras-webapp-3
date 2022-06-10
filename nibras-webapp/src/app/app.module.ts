@@ -8,6 +8,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { SharedModule } from './dashboard/shared/shared.module';
 import { HomeDataService } from './services/homeData.service';
 import { UserDataService } from './services/user-data.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { UserDataService } from './services/user-data.service';
     AppRoutingModule,
     DashboardModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [HomeDataService, UserDataService],
   bootstrap: [AppComponent]

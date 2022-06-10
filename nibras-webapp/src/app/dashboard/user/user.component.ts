@@ -18,6 +18,7 @@ export class UserComponent implements OnInit {
   userList: User[];
 
   toggleActionValue: string;
+  displayedColumns: string[] = ['imageUrl','name', 'email', 'phone'];
 
   constructor(private userDataService: UserDataService) { }
 
