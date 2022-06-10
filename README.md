@@ -1,9 +1,10 @@
-# Nibras-webapp-3
+# Nibras-webapp-3 Interview Assignment
 
-**Frameworks and libraries used**  
+**Frameworks and libraries are used**  
 - Angular version 14  
 - Angular Material UI components  
-- Bootstrap 5.1  
+- Bootstrap 5.1
+- Google Material Icons  
 
 1. im used Angular 14 version locally .pleace clone this repo and run the following comands  
 **npm i**   
