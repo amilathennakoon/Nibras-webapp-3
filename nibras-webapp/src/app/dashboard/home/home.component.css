@@ -1,5 +1,3 @@
-$bgcolor: #f0f5fb;
-
 .home-panel {
   margin-top: 10px;
 }
@@ -14,5 +12,6 @@ $bgcolor: #f0f5fb;
 
 .home-page {
   padding: 20px;
-  background-color: $bgcolor;
+  background-color: #f0f5fb;
 }
+/*# sourceMappingURL=home.component.css.map */

@@ -1,0 +1,59 @@
+.home-panel {
+  margin-top: 10px;
+}
+
+.card-panel {
+  margin-top: 20px;
+  background-color: #f0f5fb;
+  padding-left: 15px;
+  padding-top: 80px;
+}
+
+.details {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-subtitle {
+  font-size: 13px;
+}
+
+.profile {
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-bottom: 80px;
+}
+
+.card-body {
+  padding-bottom: 5px;
+}
+
+.image {
+  width: 5px;
+  margin-top: -63px;
+}
+
+.card {
+  border: 0px;
+}
+
+/* Rules for styling the icon. */
+.message-icon {
+  position: absolute;
+  border: 4px solid white;
+  margin-top: -38px;
+  background: #47a1f6;
+  right: 37px;
+  color: #ffffff;
+  line-height: 1px;
+}
+
+.meterial-icon-custom {
+  padding: 6px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=user.component.css.map */

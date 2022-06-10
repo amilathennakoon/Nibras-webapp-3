@@ -26,6 +26,7 @@ export class BlogsComponent implements OnInit {
   ngOnInit(): void {
     this.homeDataSubscription = this.homeService.GetAllBlogPosts().subscribe((postList: Post[]) => {
       this.blogPostList = postList;
+      this.totalBlogPosts = `Total blog posts: ${this.blogPostList.length}`;
     });
   }
 

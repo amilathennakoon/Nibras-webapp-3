@@ -1,0 +1,49 @@
+.blog-page {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.blog-page-body {
+  padding-left: 16px;
+  margin-top: 10px;
+  background-color: #f0f5fb;
+}
+
+.image-card {
+  margin: 10px;
+  padding: 20px;
+  width: 24rem;
+  height: 14rem;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 11px;
+}
+
+.readmore {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.display-data {
+  position: absolute;
+  bottom: 20px;
+  font-size: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.author {
+  float: right;
+}
+/*# sourceMappingURL=blogs.component.css.map */

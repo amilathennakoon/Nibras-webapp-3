@@ -1,12 +1,15 @@
-<div class="home-panel">
-    <app-description [header]="headerData" [Description]="descriptionData"></app-description>
-</div>
+<div class="home-page">
 
-<div class="summart-cards">
-    <app-summary-card [totalOrders]="totalOrdersData" [totalExpenses]="totalExpensesData"
-        [totalRevenue]="totalRevenueData" [NewUsers]="newUsersCount"></app-summary-card>
-</div>
+    <div class="home-panel">
+        <app-description [header]="headerData" [Description]="descriptionData"></app-description>
+    </div>
 
-<div class="recent-blogs">
-    <app-recent-blogs [posts]="blogPostList"></app-recent-blogs>
+    <div class="summart-cards">
+        <app-summary-card [totalOrders]="totalOrdersData" [totalExpenses]="totalExpensesData"
+            [totalRevenue]="totalRevenueData" [NewUsers]="newUsersCount"></app-summary-card>
+    </div>
+
+    <div class="recent-blogs">
+        <app-recent-blogs [posts]="blogPostList"></app-recent-blogs>
+    </div>
 </div>
